@@ -1,0 +1,155 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-24T20:50:29.630Z",
+        "line": 3,
+        "name": "Verify links are working",
+        "description": "",
+        "id": "home;verify-links-are-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11116000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Browser is opened",
+            "match": {
+              "location": "stepDef.Teststeps.browser_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6771000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is navigated to homepage",
+            "match": {
+              "location": "stepDef.Teststeps.user_is_navigated_to_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22992000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user verify links",
+            "match": {
+              "location": "stepDef.Teststeps.user_clicks_on_link_verifylinks()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2404000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Browser is closed",
+            "match": {
+              "location": "stepDef.Teststeps.browser_is_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-24T20:51:13.739Z",
+        "line": 9,
+        "name": "Check validations on contact page",
+        "description": "",
+        "id": "home;check-validations-on-contact-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9103000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Browser is opened",
+            "match": {
+              "location": "stepDef.Teststeps.browser_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7350000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is navigated to homepage",
+            "match": {
+              "location": "stepDef.Teststeps.user_is_navigated_to_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3435000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click Get in touch button",
+            "match": {
+              "location": "stepDef.Teststeps.user_click_getInTouch_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 464000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "submit form without entering values",
+            "match": {
+              "location": "stepDef.Teststeps.submit_form_without_entering_values()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 538000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verify validations are showing",
+            "match": {
+              "location": "stepDef.Teststeps.verify_all_validations_Are_Showing()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4143000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Browser is closed",
+            "match": {
+              "location": "stepDef.Teststeps.browser_is_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Home",
+    "description": "",
+    "id": "home",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/Home.feature",
+    "tags": []
+  }
+]

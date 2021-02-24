@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="71.088">
+<testcase classname="Home" name="Verify links are working" time="43.975">
+<system-out><![CDATA[Given Browser is opened.....................................................passed
+When user is navigated to homepage..........................................passed
+And user verify links.......................................................passed
+Then Browser is closed......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Home" name="Check validations on contact page" time="25.039">
+<system-out><![CDATA[Given Browser is opened.....................................................passed
+When user is navigated to homepage..........................................passed
+Then user click Get in touch button.........................................passed
+Then submit form without entering values....................................passed
+Then verify validations are showing.........................................passed
+Then Browser is closed......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
